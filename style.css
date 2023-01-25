@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration:none;
+
+}
+.header-menu{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #cccccc;
+}
+.header-menu-item{
+    
+    padding:10px;
+    margin-left: 30px;
+    
+}
+.main-img{
+    width:100%;
+}
+
+.main-content-written{
+    text-align:center;
+    background-color:#cccccc;
+    padding:20px;
+}
+
+
+.main-content-written-paragraph{
+    margin:10px;
+}
+
+#missao{
+    font-size:20px;
+}
+
+em strong{
+    color:rgb(151, 34, 34);
+}
+
+.item{
+    font-style:italic;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.beneficios{
+    background:#fefefe;
+    padding: 30px;
+    
+}
+
+.beneficios-titulo{
+    margin-bottom:20px;
+}
+
+ul{
+    display:inline-block;
+    vertical-align:top;
+    width:20%;
+    margin-right:15%;
+}
+
+.imgbeneficios{
+    width:50%;
+}
+
+.footer{
+    padding: 30px;
+    background-color: rgb(86, 100, 121);
+    color: #cccccc;
+}
