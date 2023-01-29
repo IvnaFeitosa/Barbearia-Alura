@@ -1,0 +1,57 @@
+
+.header{
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.header-content{
+    position: relative;
+    width:949px;
+    margin: 0 auto;
+}
+.header-menus{
+    position:absolute;
+    top:110px;
+    right:0;
+}
+.header-menus-item{
+    display: inline;
+    margin: 0 0 0 15;
+
+}
+.header-menus-item{
+    margin:10px;
+    
+}
+.header-menus-item a{
+    text-transform:uppercase;
+    color: #010101;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+
+}
+.main-list{
+    width: 940px;
+    margin:0 auto;
+    padding:50px 0;
+    
+}
+.main-list-item{
+    display:inline-block;
+    text-align:center;
+    width:30%;
+    vertical-align:top
+
+    
+}
+
+.main-list-item-titulo{
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+.main-list-item-price{
+
+}
