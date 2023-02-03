@@ -1,0 +1,115 @@
+.header{
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.header-content{
+    position: relative;
+    width:949px;
+    margin: 0 auto;
+}
+.header-menus{
+    position:absolute;
+    top:110px;
+    right:0;
+}
+.header-menus a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.header-menus-item{
+    display: inline;
+    margin: 0 0 0 15;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.header-menus-item{
+    margin:10px;
+    
+}
+
+.header-menus-item a{
+    text-transform:uppercase;
+    color: #010101;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+
+}
+.main-content{
+    width:940px;
+    margin: 0 auto;
+
+}
+.main-content-form{
+    margin:40px 0;
+}
+.main-content-form-label{
+    display:block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.main-content-form-input{
+    display:block;
+    margin-bottom:20px;
+    padding:10px 25px;
+    width:50%;
+}
+.main-content-fom-checkbox{
+    display:block;
+    font-size: 20px;
+    margin:20px 0;
+        
+}
+.main-content-form-buttom{
+    width:40%;
+    padding:15px 0;
+    background-color: orange;
+    color:#f1f1f1;
+    font-weight:bold;
+    font-size:18px ;
+    border:none;
+    border-radius:5px;
+    transition: 1s all;
+    cursor:pointer;
+
+
+}
+.main-content-form-buttom:hover{
+    background: darkorange;
+    transform:scale(1.2);
+    
+}
+
+.main-table {
+    margin:20px 0 40px;
+}
+.main-thead{
+    background-color: #555555;
+    color:#f1f1f1;
+    font-weight:bold;
+}
+.main-table-elements {
+    border:1px solid #010101;
+    padding:8px 102px;
+}
+.main-table-title{
+    border:1px solid #010101;
+    padding:8px 102px;
+    text-align:center;
+    font-size:20px;
+}
+
+
+
+.footer-content{
+    text-align: center;
+    background: url(assets/img/ProdutrosBarbearia/bg.jpg);
+    padding:40px 0px;
+}
+.footer-content-text{
+    color:#f1f1f1;
+    font-size:13px;
+    margin-top:10px;
+}
+

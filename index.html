@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header class="header">
         <nav class="header-menu">
-            <h1 class="header-menu-item">Barbearia Alura</h1>
-            <a class="header-menu-item" >Sobre nós</a>
-            <a class="header-menu-item">Benefícios</a>
-            <a class="header-menu-item">Contatos</a>
+            
+            <h1 class="header-menu-name">Barbearia Alura</h1>
+            <div>
+                <a class="header-menu-item" href="#main-sobre">Sobre nós</a>
+                <a class="header-menu-item" href="#main-beneficios">Benefícios</a>
+                <a class="header-menu-item" href="produtos.html">Produtos</a>
+                <a class="header-menu-item" href="contato.html">Contatos</a>
+            </div>
         </nav>
         
     </header>
     <main class="main-content">
         <img class="main-img" src="assets/img/banner.jpg" alt="imagem de fundo barbearia">
         <div class="main-content-written">
-            <h2 class="main-content-written-title">Sobre a Barbearia Alura</h2> 
+            <h2 class="main-content-written-title" id="main-sobre">Sobre a Barbearia Alura</h2> 
 
                 <p class="main-content-written-paragraph">Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
                 Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
@@ -36,7 +44,7 @@
         </div>
 
         <div class="beneficios">
-            <h3 class="beneficios-titulo">Benefícios</h3>
+            <h3 class="beneficios-titulo" id="main-beneficios">Benefícios</h3>
             <ul>
                 <li class="item">Atendimento aos clientes</li>
                 <li class="item">Espaço diferenciado</li>
@@ -47,11 +55,16 @@
         </div>
     </main>
     <footer class="footer">
-        <div>
-            <li class="isnta"><a href=""></a>Instagram</li>
-            <li class="linkedin"><a href="">Linkeding</a></li>
-            <li class="discord"><a href=""></a>Discord</li>
+        
+        <div class="footer-list">
+            <span class="footer-list-items"><a ></a>Instagram</span>
+            <span class="footer-list-items"><a >Linkeding</a></span>
+            <span class="footer-list-items"><a ></a>Discord</span>
         </div>
+        <div>
+            <span >&copy; Copyright barberaria - 2019</span>
+        </div>
+        
     </footer>
     </body>
 </html>
