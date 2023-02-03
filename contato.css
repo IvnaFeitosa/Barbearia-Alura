@@ -80,6 +80,28 @@
     transform:scale(1.2);
     
 }
+
+.main-table {
+    margin:20px 0 40px;
+}
+.main-thead{
+    background-color: #555555;
+    color:#f1f1f1;
+    font-weight:bold;
+}
+.main-table-elements {
+    border:1px solid #010101;
+    padding:8px 102px;
+}
+.main-table-title{
+    border:1px solid #010101;
+    padding:8px 102px;
+    text-align:center;
+    font-size:20px;
+}
+
+
+
 .footer-content{
     text-align: center;
     background: url(assets/img/ProdutrosBarbearia/bg.jpg);
@@ -90,3 +112,4 @@
     font-size:13px;
     margin-top:10px;
 }
+
