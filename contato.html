@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1><img class="header-imagem" src="assets/img/ProdutrosBarbearia/logo.png" alt="Logo Barbearia Alura"></h1>
+            <nav class="header-menus">
+                <ul class="header-list-menus">
+                    <li class="header-menus-item"><a  href="index.html">Home</a></li>
+                    <li class="header-menus-item"><a  href="produtos.html">Produtos</a></li>
+                    <li class="header-menus-item"><a  href="contato.html">contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+    <main class="main-content">
+        <form class="main-content-form">
+            <label class="main-content-form-label" for="fullname">Nome e Sobrenome</label>
+            <input  class="main-content-form-input"type="text" id="fullname" required placeholder="Nome e sobrebome">
+
+            <label class="main-content-form-label" for="email">E-mail</label>
+            <input  class="main-content-form-input"type="text" id="email"required placeholder="seuemail@dominio.com">
+
+            <label class="main-content-form-label" for="phone">Telefone</label>
+            <input  class="main-content-form-input"type="text" id="phone"required placeholder="(xx) x xxxx-xxxx"> 
+
+            <label class="main-content-form-label" for="messege">Mensagem</label>
+            <textarea class="main-content-form-input" cols="70" rows="10" id="messege"></textarea required>
+
+            <fieldset>
+                <legend  class="main-content-form-label">Como prefere nosso contato?</legend>
+                <label class="main-content-form-label"><input type="radio" value="email" name="contato" checked>Email</label >
+                
+            
+                <label class="main-content-form-label"><input type="radio" value="telefone" name="contato" >Telefone</label>
+                
+            
+                <label class="main-content-form-label" ><input type="radio" value="whatsapp" name="contato" >WhatsApp</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend class="main-content-form-label">Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>    
+                    <option>Tarde</option>  
+                    <option>Noite</option>     
+                </select>
+
+                <label class="main-content-fom-checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+                
+                <input class="main-content-form-buttom"type="submit" value="Enviar formulário" >
+            </fieldset>    
+
+            
+            
+        </form>
+        <table>
+            <tr>
+                <td>Dia</td>
+                <td>Horário</td>
+            </tr>
+            <tr>
+                <td>Segunda</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>8h ~ 20h</td>
+            </tr>
+        </table>
+    </main>
+    <footer class="footer-content">
+    <img class="footer-content-img" src="assets/img/ProdutrosBarbearia/logo-branco.png">
+    <p class="footer-content-text">&copy; Copyright barberaria - 2019</p>
+</footer>
+</body>
+</html>
