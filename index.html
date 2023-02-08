@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -12,22 +13,25 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header-menu">
-            
-            <h1 class="header-menu-name">Barbearia Alura</h1>
-            <div>
-                <a class="header-menu-item" href="#main-sobre">Sobre nós</a>
-                <a class="header-menu-item" href="#main-beneficios">Benefícios</a>
-                <a class="header-menu-item" href="produtos.html">Produtos</a>
-                <a class="header-menu-item" href="contato.html">Contatos</a>
-            </div>
-        </nav>
-        
+        <div class="header-content">
+            <h1><img class="header-imagem" src="assets/img/ProdutrosBarbearia/logo.png" alt="Logo Barbearia Alura"></h1>
+            <nav class="header-menus">
+                <ul class="header-list-menus">
+                    <li class="header-menus-item"><a  href="index.html">Home</a></li>
+                    <li class="header-menus-item"><a  href="produtos.html">Produtos</a></li>
+                    <li class="header-menus-item"><a  href="contato.html">contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    
     </header>
+    <img class="main-img" src="assets/img/banner.jpg" alt="imagem de fundo barbearia">
+
     <main class="main-content">
-        <img class="main-img" src="assets/img/banner.jpg" alt="imagem de fundo barbearia">
-        <div class="main-content-written">
+        <section class="main-content-written">
             <h2 class="main-content-written-title" id="main-sobre">Sobre a Barbearia Alura</h2> 
+
+            <img class="main-utensilios" src="assets/img/utensilios.jpg" als="Imagem de uternsilios de barbearia">
 
                 <p class="main-content-written-paragraph">Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
                 Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
@@ -41,30 +45,43 @@
 
                 <p class="main-content-written-paragraph">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
                     O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
+        </section >
+            
+        <section class="main-content-map">
+            <div>
+                <h3 class="main-content-written-title">Nosso estabelecimento</h3>
+                <p> Nosso estabelecimento está localizado no centro da cidade</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29256.852674762493!2d-46.669226426686876!3d-23.564615188947442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1sen!2sbr!4v1675627699491!5m2!1sen!2sbr" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
 
-        <div class="beneficios">
-            <h3 class="beneficios-titulo" id="main-beneficios">Benefícios</h3>
-            <ul>
-                <li class="item">Atendimento aos clientes</li>
-                <li class="item">Espaço diferenciado</li>
-                <li class="item">Localização</li>
-                <li class="item">Profissionais qualificados</li>
-            </ul>
-        <img class="imgbeneficios" src="assets/img/beneficios.jpg" alt="imagem de cliente barbearia ">
-        </div>
+        <section class="main-content-beneficios">
+            <h3 class="main-content-written-title" id="main-beneficios">Benefícios</h3>
+            <div class="main-content-beneficios-items">
+                <ul class="main-content-beneficios-list">
+                    <li class="item">Atendimento aos clientes</li>
+                    <li class="item">Espaço diferenciado</li>
+                    <li class="item">Localização</li>
+                    <li class="item">Profissionais qualificados</li>
+                    <li class="item">Pontualidade</li>
+                    <li class="item">Limpeza</li>
+                </ul><img class="img-beneficios" src="assets/img/beneficios.jpg" alt="imagem de cliente barbearia ">
+            </div>
+            
+            <div class="main-content-video">
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/wcVVXUV0YUY" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+        
     </main>
-    <footer class="footer">
-        
-        <div class="footer-list">
-            <span class="footer-list-items"><a ></a>Instagram</span>
-            <span class="footer-list-items"><a >Linkeding</a></span>
-            <span class="footer-list-items"><a ></a>Discord</span>
-        </div>
-        <div>
-            <span >&copy; Copyright barberaria - 2019</span>
-        </div>
-        
+    <footer class="footer-content">
+        <img class="footer-content-img" src="assets/img/ProdutrosBarbearia/logo-branco.png">
+        <p class="footer-content-text">&copy; Copyright barberaria - 2019</p>
     </footer>
-    </body>
+</body>
 </html>
