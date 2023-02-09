@@ -186,6 +186,33 @@
     width:560px;
     margin: 2em auto;
     background-color: #888888;
-    
+   
+}
+@media screen and (max-width:480px){
+    .header-content, .main-content-written, .main-content-beneficios-items, .main-content-map div, .main-content-video{
+        width:auto;
+    }
+    h1 {
+        text-align:center;
 
+    }
+    .header-menus{
+        position:static;
+       
+    }
+    .header-menus-item a{
+        font-size: 20px;
+    }
+    .main-content-map p{
+        margin: 0 15px 15px;
+    }
+    .main-content-beneficios-list, .img-beneficios{
+        width:100%;
+        margin:20px;
+
+    }
+    .main-content-video{
+        margin: 0 20px;
+    }
+    
 }
